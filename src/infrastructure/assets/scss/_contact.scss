@@ -1,0 +1,109 @@
+.upper-div {
+  background-color: #f7f7f7;
+  height: 12.5rem;
+  width: auto;
+}
+.rowstyle > * {
+  padding-left: 105px;
+  padding-top: 60px;
+}
+.colstyle > * {
+  margin-bottom: 0 !important;
+}
+.contact-div {
+  background-color: #710060;
+  height: 48rem;
+  width: auto !important;
+  padding-top: 3rem;
+  position: relative;
+  vertical-align: top;
+  .purpleimg {
+    right: 0%;
+    height: 11rem;
+    width: 13rem;
+    bottom: 37rem;
+    position: absolute;
+  }
+  .p1 {
+    color: orange;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 0;
+    padding-left: 5px;
+  }
+  .div-col-style {
+    margin-left: 10rem;
+  }
+  .text-white {
+    font-size: 20px;
+    margin-left: 5.5rem;
+  }
+  .locationimg {
+    width: 23rem;
+    height: 13rem;
+    border-radius: 20px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+}
+.form-div {
+  background-color: #efefef;
+  height: 48rem;
+  width: 53.8rem !important;
+  padding-top: 2.9rem;
+  position: relative;
+
+  .form-text-div {
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 70px;
+  }
+  .form-style {
+    width: 22rem;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    margin-left: 70px;
+    position: absolute;
+  }
+  .form-style:hover {
+    border: 2px solid #710060;
+  }
+  // .form-style-message {
+  //   width: 22rem;
+  //   border-radius: 20px;
+  //   margin-bottom: 20px;
+  //   border: 1px solid white;
+  //   right: 21rem;
+  //   position: absolute;
+  // }
+  // .form-style-message:hover{
+  //   border: 2px solid #710060;
+
+  // }
+  ::placeholder {
+    color: #b2b2b2;
+    font-size: 15px;
+    padding-left: 1rem !important;
+    font-weight: bold;
+  }
+  .form-submit-btn {
+    border-radius: 25px;
+    padding: 9px 32px;
+    margin-top: 54%;
+    background-color: transparent;
+    color: #f6913a;
+    border: 2px solid #f6913a;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 19rem;
+  }
+  .form-submit-btn:hover {
+    color: white;
+    background-image: linear-gradient(to right, #f6913a, #a3238e);
+    border: transparent;
+  }
+}
+.containerDiv {
+  background-color: #e31313;
+}

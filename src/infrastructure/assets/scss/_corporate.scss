@@ -1,0 +1,117 @@
+.corporatimage1 {
+  height: 25rem;
+  width: 100%;
+  // padding-left: 35rem;
+  // position: absolute;
+  // bottom: -0.6rem;
+  object-fit: contain;
+}
+.corporateBlock1 {
+  color: black;
+  font-weight: bold;
+  padding-top: 1rem;
+  // position: absolute;
+}
+.corporateBlock2 {
+  color: #a3238e;
+  font-weight: bold;
+  // position: absolute;
+  top: 23.5rem;
+}
+.corporatimage2 {
+  height: 25rem;
+  // position: absolute;
+  bottom: 11rem;
+  left: 12rem;
+}
+.flask1 {
+  // position: absolute;
+  left: 2rem;
+  top: 6rem;
+}
+.flask2 {
+  // position: absolute;
+  left: 78rem;
+  top: 43rem;
+}
+.corporateabouttext {
+  // position: absolute;
+  left: 44rem;
+  font-weight: bold;
+  bottom: -12rem;
+  font-size: 21px;
+}
+.corporateourstorytext {
+  // position: absolute;
+  left: 44rem;
+  color: #a3238e;
+  font-weight: bold;
+  bottom: -14.5rem;
+}
+.corporatemaindiv {
+  // position: absolute;
+  top: 27rem;
+}
+.corporateseconddiv1st {
+  // position: relative;
+  left: 34rem;
+  top: 12rem;
+}
+.corporateseconddiv2nd {
+  // position: relative;
+  left: 34rem;
+  top: 13rem;
+}
+.corporateseconddiv3rd {
+  // position: relative;
+  left: 34rem;
+  top: 14rem;
+}
+.corporateseconddiv4th {
+  // position: relative;
+  left: 34rem;
+  top: 15rem;
+}
+.corporativefourthh2 {
+  color: #a3238e;
+  font-weight: bold;
+  text-align: center;
+}
+.rowstyle {
+  transform: translate(6%, -6%);
+  // position: absolute;
+}
+.col1style {
+  .coldiv {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #a3238e;
+    width: 17rem;
+    height: 18rem;
+    margin-left: 5rem;
+  }
+  .col1div2 {
+    background-image: linear-gradient(to left, #f6913a, #a3238e);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    border-color: transparent;
+    width: 12rem;
+    height: 4rem;
+    margin-left: 7.5rem;
+    // position: relative;
+    top: 1.5rem;
+    .h5all {
+      font-size: 15px;
+      font-weight: bold;
+      padding-top: 0.5rem;
+    }
+  }
+  .div1para {
+    font-size: 14px;
+    text-align: left;
+    padding-top: 60px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}

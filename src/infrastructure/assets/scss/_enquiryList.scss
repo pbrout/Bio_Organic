@@ -1,0 +1,210 @@
+.main {
+  height: 13rem;
+  background-color: #f7f7f7;
+  .cancel-button {
+    position: absolute;
+    transform: translate(0rem, 1rem);
+    left: 87rem;
+    height: 2.5rem;
+    width: 3rem;
+  }
+}
+.enquiry-div {
+  background-color: #efefef;
+  height: 40rem;
+  position: relative;
+}
+.list-text {
+  color: #a0a0a0;
+  font-weight: bold;
+  position: absolute;
+  top: 15rem;
+  left: 20rem;
+}
+.scroll-image {
+  position: absolute;
+  height: 14rem;
+  left: 55rem;
+  top: 10rem;
+}
+.info-box-style {
+  background-color: #f7f7f7;
+  position: absolute;
+  top: 27rem;
+  left: 5rem;
+  height: 5rem;
+  border-radius: 10px;
+  width: 47rem;
+  ::placeholder {
+    padding-left: 1rem !important;
+    color: #858585;
+  }
+}
+.cancel-button {
+  // position: absolute;
+  transform: translate(0rem, 1rem);
+  left: 87rem;
+  height: 2.5rem;
+  width: 3rem;
+}
+.search-box-enquiry {
+  background-color: white;
+  border: 2px solid #f7f7f7;
+  height: 3rem;
+  width: 15rem;
+  border-radius: 13px;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+.search-box-enquiry:hover {
+  border: 1px solid #a3238e;
+}
+.quality-box {
+  background-color: white;
+  border: 2px solid #f7f7f7;
+  height: 3rem;
+  width: 10rem;
+  border-radius: 13px;
+  position: absolute;
+  top: 1rem;
+  left: 17rem;
+}
+.quality-box:hover {
+  border: 1px solid #a3238e;
+}
+
+.checkbox-container {
+  position: absolute;
+  display: inline-block;
+  right: 22rem;
+  top: 1.2rem;
+  cursor: pointer;
+  transform: translate(0%, 45%);
+}
+
+.check-btn {
+  display: none;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0.5rem;
+  left: 5rem;
+  width: 20px;
+  height: 20px;
+  background-color: black; /* Checkbox background color */
+  border-radius: 3px;
+}
+.check-btn:checked + .checkmark {
+  background-color: black; /* Checkbox background color when checked */
+}
+
+.checkmark::after {
+  content: "";
+  position: absolute;
+  display: none;
+  left: 7px;
+  top: 2.1px;
+  width: 5px;
+  height: 10px;
+  border: solid;
+  border-color: #32ff03;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.checkmark.checked::after {
+  display: block;
+}
+.Draft-style {
+  position: absolute;
+  left: 6.5rem;
+  top: 0.5rem;
+  font-size: 14px;
+  font-weight: bold;
+}
+.Draft-style:hover {
+  color: #f6913a;
+}
+.add-button {
+  background-color: #a3238e;
+  border-radius: 20px;
+  border: 1px solid #a3238e;
+  color: white;
+  font-size: 15px;
+  width: 6rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 38rem;
+  top: 1.2rem;
+}
+.input-div {
+  ::placeholder {
+    padding-left: 1rem !important;
+    color: #858585;
+  }
+}
+.h1-query {
+  font-weight: bold;
+  color: #434343;
+  position: absolute;
+  left: 60rem;
+  top: 5rem;
+}
+.h12-query {
+  font-weight: bold;
+  color: #a3238e;
+  position: absolute;
+  left: 60rem;
+  top: 7.5rem;
+}
+.input-name-style {
+  position: absolute;
+  left: 60rem;
+  top: 11.5rem;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  width: 25rem;
+  height: 2.5rem;
+}
+.input-mail-style {
+  position: absolute;
+  left: 60rem;
+  top: 15.5rem;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  width: 25rem;
+  height: 2.5rem;
+}
+.input-phone-style {
+  position: absolute;
+  left: 60rem;
+  top: 19.5rem;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  width: 25rem;
+  height: 2.5rem;
+}
+.input-company-style {
+  position: absolute;
+  left: 60rem;
+  top: 23.5rem;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  width: 25rem;
+  height: 2.5rem;
+}
+.submit-button {
+  background-color: #a3238e;
+  border-radius: 30px;
+  border: 1px solid #a3238e;
+  font-weight: bold;
+  color: white;
+  font-size: 15px;
+  width: 9rem;
+  height: 3.5rem;
+  position: absolute;
+  left: 75rem;
+  top: 28rem;
+}
