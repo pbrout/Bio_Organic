@@ -1,0 +1,109 @@
+.header-box {
+  // background-color: #1eb470;
+  background-color: #f7f7f7;
+  width: 82rem;
+  border-radius: 25px;
+  padding: 20px;
+  z-index: 30;
+  position: fixed;
+  top: 2rem;
+  left: 1rem;
+  // height: 10rem;
+  opacity: calc(0.9);
+  .bio-logo {
+    top: 10%;
+    width: 3rem;
+    height: 4rem;
+  }
+}
+.search-box {
+  background-color: white;
+  border: 2px solid #f7f7f7;
+  height: 3rem;
+  width: 45rem;
+  border-radius: 35px;
+  padding: 8px;
+  position: relative;
+  padding-left: 50px;
+}
+
+.search-btn {
+  position: absolute;
+  z-index: 30;
+  right: 12%;
+  cursor: pointer;
+  transform: translate(0%, 45%);
+}
+.info-btn {
+  z-index: 30;
+  position: absolute;
+  transform: translate(50%, 40%);
+}
+.search-container:hover {
+  color: #f6913a;
+  .search-box {
+    border: 2px solid #a3238e;
+    cursor: pointer;
+  }
+  .info-btn {
+    color: #a3238e;
+    cursor: pointer;
+  }
+}
+
+::placeholder {
+  color: rgb(209 209 209);
+  font-size: 15px;
+  padding-left: 4rem !important;
+}
+.search-box:hover {
+  border: 2px solid #a3238e;
+  cursor: pointer;
+}
+.header-btn {
+  border-radius: 25px;
+  margin-left: auto;
+  padding: 7px 25px;
+  margin-top: 23px;
+  background-color: transparent;
+  color: black;
+  float: left;
+  border: 2px solid #f7f7f7;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.header-btn:hover {
+  color: #f6913a;
+  border: 2px solid #f6913a;
+  font-weight: bold;
+}
+.header-btn-enq {
+  border-radius: 25px;
+  display: inline;
+  margin-left: auto;
+  padding: 7px 25px;
+  margin-top: 23px;
+  background-color: transparent;
+  color: #a3238e;
+  float: left;
+  border: 2px solid #a3238e;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+}
+.header-btn-enq:hover {
+  color: white;
+  background-color: #a3238e;
+  border: 2px solid #a3238e;
+}
+// .btnstyle:active{
+//   background-image: linear-gradient(to right, #f6913a, #a3238e);
+//   border: transparent;
+//   color: #ffffff;
+// }
+.active {
+  background-image: linear-gradient(to right, #f6913a, #a3238e);
+  border: transparent;
+  color: #ffffff;
+}
